@@ -1,0 +1,125 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #EBD9B4;
+  	}
+  
+  .container {
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: #B4B4B8;
+	margin-top: 70px;
+	border-radius: 10px;
+	padding: 20px;
+  }
+  
+  header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 0;
+	border-bottom: 1px solid #ddd;
+  }
+  
+  header img {
+	width: 100px;
+  }
+  
+  .container-input {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+  }
+  
+  #input-texto {
+	width: 97.4%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	font-size: 16px;
+	resize: none;
+  }
+  
+  .paragrafo {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: right;
+	font-size: 14px;
+	color: #000000;
+  }
+  
+  #output {
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	color: #888;
+	background-color: #f5f5f5;
+	border-radius: 10px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+  }
+  
+  #output h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 50;
+	font-size: 16px;
+  }
+  
+  #output img {
+	width: 100px;
+	align-self: center;
+  }
+  
+
+  .buttons {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+  }
+  
+  .container-btn {
+	display: flex;
+	gap: 10px;
+  }
+  
+  button {
+	padding: 8px 20px;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+	background-color: #DADDB1;
+	color: #000000;
+  }
+  
+  .btn-codificar:hover,
+  .btn-decodificar:hover {
+	background-color: #ddd;
+  }
+  
+
+  footer {
+	padding: 1px 1px;
+	text-align: center;
+	border-top: 1px solid #ddd;
+  }
+  
+  .icons {
+	margin-top: 35px;
+	margin-bottom: 10px;
+
+  }
+  
+  .icons a {
+	color: inherit;
+  }
+  
+  footer h3 {
+	margin: 0;
+	font-size: 16px;
+	color: #000000;
+  }
